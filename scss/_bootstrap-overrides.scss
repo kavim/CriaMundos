@@ -1,0 +1,17 @@
+.bg-primary {
+  background-color: $secondary !important;
+  background-image: linear-gradient($secondary, $roxo);
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
